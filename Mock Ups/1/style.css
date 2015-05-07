@@ -1,0 +1,912 @@
+.my-icon {
+    position: relative;
+}
+
+.my-icon > a {  /* Letter A left leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-icon > a+a { /* Letter A top bar */
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 0em;
+}
+.my-icon > a+a+a { /* Letter A right leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 2.25em;
+    top: 0em;
+}
+.my-icon > a+a+a+a { /* Letter A middle bar */
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 2.625em;
+}
+
+.my-icon {
+    position: relative;
+    left: 50px;
+
+}
+.my-icon > b { /* Letter B left leg*/
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-icon > b+b { /* Letter B top bar */
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 0em;
+}
+.my-icon > b+b+b { /* Letter B right leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 2.25em;
+    top: 0em;
+}
+.my-icon > b+b+b+b { /* Letter B middle bar */
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 2.625em;
+}
+.my-icon > b+b+b+b+b { /* Letter B buttom bar */
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 5.25em;
+}
+
+.my-c {
+    position: relative;
+/*    left: 50px;*/
+	float: left;
+}
+.my-c > i { /* Letter C left leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-c > i+i {  /* Letter C top bar */
+    position: absolute;
+    display: inline-block;
+    width: 2.25em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 0em;
+}
+.my-c > i+i+i { /* Letter C bottum bar */ 
+    position: absolute;
+    display: inline-block;
+    width: 2.25em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 5.25em;
+} 
+
+.my-d {
+    position: relative;
+    /*left: 100px;*/
+    float: left;
+}
+.my-d > i { /* Letter D left leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0.375em;
+    top: 0em;
+}
+.my-d > i+i { /* letter D top bar */ 
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 1.125em;
+    top: 0em;
+}
+.my-d > i+i+i { /* letter D bottum bar */
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 1.125em;
+    top: 5.25em;
+}
+.my-d > i+i+i+i { /* letter D right leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 2.625em;
+    top: 0em;
+}
+.my-d > i+i+i+i+i { /* letter D top small bar */
+    position: absolute;
+    display: inline-block;
+    width: 0.375em;
+    height: 0.75em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-d > i+i+i+i+i+i { /* letter D bottum small bar */
+    position: absolute;
+    display: inline-block;
+    width: 0.375em;
+    height: 0.75em;
+    background-color: black;
+    left: 0em;
+    top: 5.25em;
+}
+
+.my-e {
+    position: relative;
+    /*left: 157px;*/
+    float: left;
+}
+.my-e > i { /* letter E left leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+} 
+.my-e > i+i { /* letter E top bar */
+    position: absolute;
+    display: inline-block;
+    width: 2.25em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 0em;
+}
+.my-e > i+i+i { /* letter E bottum bar */
+    position: absolute;
+    display: inline-block;
+    width: 2.25em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 5.25em;
+}
+.my-e > i+i+i+i { /* letter E middle bar */
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 2.625em;
+}
+
+.my-f {
+    position: relative;
+    /*left: 208px;*/
+    float: left;
+}
+.my-f > i { /* letter F left leg*/
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-f > i+i { /* letter F top bar */
+    position: absolute;
+    display: inline-block;
+    width: 2.25em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 0em;
+}
+.my-f > i+i+i { /* letter F middle bar*/
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 2.625em;
+}
+
+.my-g {
+    position: relative;
+    /*left:260px;*/
+    float: left;
+}
+.my-g > i { /* letter G left leg*/
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-g > i+i { /* letter F bottum bar */
+    position: absolute;
+    display: inline-block;
+    width: 2.25em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 5.25em;
+}
+.my-g > i+i+i { /* letter F top bar */
+    position: absolute;
+    display: inline-block;
+    width: 2.25em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 0em;
+}
+.my-g > i+i+i+i { /* letter F right leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 2.625em;
+    background-color: black;
+    left: 2.25em;
+    top: 2.625em;
+}
+
+.my-h {
+    position: relative;
+    /*left:313px;*/
+    float: left;
+}
+.my-h > i { /* letter H left leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-h > i+i { /* letter H middle bar */
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 2.625em;
+}
+.my-h > i+i+i { /* letter H right leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 2.25em;
+    top: 0em;
+}
+
+.my-i {
+    position: relative;
+    /*left:370px;*/
+    float: left;
+}
+
+.my-i > i { /* letter H left leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+
+.my-j {
+    position: relative;
+    /*left:390px;*/
+    float: left;
+}
+.my-j > i { /* letter J left leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 3.375em;
+    background-color: black;
+    left: 0em;
+    top: 2.625em;
+}
+.my-j > i+i { /* letter J bottum bar */
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 5.25em;
+}
+.my-j > i+i+i { /* letter J right leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color:black;
+    left: 2.25em;
+    top: 0em;
+}
+
+.my-l {
+    position: relative;
+    /*left:445px;*/
+    float: left;
+}
+.my-l > i { /* letter L left leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-l > i+i { /* letter L bottum bar */
+    position: absolute;
+    display: inline-block;
+    width: 2.25em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 5.25em;
+}
+
+
+
+.my-n {
+    position: relative;
+    /*left:500px;*/
+    float: left;
+}
+.my-n > i { /* letter N left leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-n > i+i { /* letter N top bar */
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 0em;
+}
+.my-n > i+i+i {  /* letter N right leg */ 
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 2.25em;
+    top: 0em;
+}
+
+.my-o {
+    position: relative;
+    /*left:555px;*/
+    float: left;
+}
+.my-o > i { /* letter O left leg */ 
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-o > i+i { /* letter O top bar */ 
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 0em;
+}
+.my-o > i+i+i { /* letter O right leg */ 
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 2.25em;
+    top: 0em;
+}
+.my-o > i+i+i+i { /* letter O bottum bar */ 
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 5.25em;
+}
+
+.my-p {
+    position: relative;
+    /*left:610px;*/
+    float: left;
+}
+.my-p > i { /* letter P left leg */ 
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-p > i+i { /* letter P top bar */ 
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 0em;
+}
+.my-p > i+i+i { /* letter P right leg */ 
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 3.375em;
+    background-color: black;
+    left: 2.25em;
+    top: 0em;
+}
+.my-p > i+i+i+i { /* letter P middle bar */ 
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 2.625em;
+}
+
+.my-q {
+    position: relative;
+    /*left:665px;*/
+    float: left;
+}
+.my-q > i { /* letter O left leg */ 
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-q > i+i { /* letter O top bar */ 
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 0em;
+}
+.my-q > i+i+i { /* letter O right leg */ 
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 2.25em;
+    top: 0em;
+}
+.my-q > i+i+i+i { /* letter O bottum bar */ 
+    position: absolute;
+    display: inline-block;
+    width: 2.65em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 5.25em;
+}
+
+.my-s {
+    position: relative;
+    /*left:725px;*/
+    float: left;
+}
+.my-s > i {
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 3em;
+    background-color: black;
+    left: 2.25em;
+    top: 3em;
+}
+.my-s > i+i {
+    position: absolute;
+    display: inline-block;
+    width: 3em;
+    height: 0.75em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-s > i+i+i {
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 3em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-s > i+i+i+i {
+    position: absolute;
+    display: inline-block;
+    width: 3em;
+    height: 0.75em;
+    background-color: black;
+    left: 0em;
+    top: 5.25em;
+}
+.my-s > i+i+i+i+i {
+    position: absolute;
+    display: inline-block;
+    width: 3em;
+    height: 0.75em;
+    background-color: black;
+    left: 0em;
+    top: 2.625em;
+}
+
+.my-t {
+    position: relative;
+    /*left:780px;*/
+    float: left;
+}
+.my-t > i {
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 5.25em;
+    background-color: black;
+    left: 1.125em;
+    top: 0.75em;
+}
+.my-t > i+i {
+    position: absolute;
+    display: inline-block;
+    width: 3em;
+    height: 0.75em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+
+.my-u {
+    position: relative;
+    /*left:923px;*/
+    float: left;
+}
+.my-u > i {
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-u > i+i {
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 2.25em;
+    top: 0em;
+}
+.my-u > i+i+i {
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 5.25em;
+}
+
+
+/*.my-u {
+    position: relative;
+    left:835px;
+}
+.my-u > i {
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-u > i+i {
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 2.25em;
+    top: 0em;
+}
+.my-u > i+i+i {
+    position: absolute;
+    display: inline-block;
+    width: 1.5em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 5.25em;
+}
+*/
+.my-w1 {
+    position: relative;
+    left:835px;
+}
+.my-w1 > i {
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+.my-w1 > i+i {
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 2.625em;
+    background-color: black;
+    left: 2.25em;
+    top: 2.625em;
+}
+.my-w1 > i+i+i {
+    position: absolute;
+    display: inline-block;
+    width: 2.25em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.75em;
+    top: 5.25em;
+}
+
+.my-w2 {
+    position: relative;
+    left:870px;
+}
+
+.my-w2 > i+i {
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 2.142857142857143em;
+    top: 0em;
+}
+.my-w2 > i+i+i {
+    position: absolute;
+    display: inline-block;
+    width: 2.25em;
+    height: 0.75em;
+    background-color: black;
+    left: 0.65em;
+    top: 5.25em;
+}
+
+.my-k {
+    position: relative;
+    /*left:980px;*/
+    float: left;
+}
+
+.my-k > i { /* letter H left leg */
+    position: absolute;
+    display: inline-block;
+    width: 0.75em;
+    height: 6em;
+    background-color: black;
+    left: 0em;
+    top: 0em;
+}
+
+
+
+*, *:before, *:after{ 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+} 
+.css-shapes-preview{ 
+    position: relative; 
+    left:999px;
+    height: 55px; 
+    width: 12px; 
+    background-color: black; 
+    top: -2px; 
+    -webkit-transform: rotate(45deg) skew(0deg); 
+    transform: rotate(35deg) skew(0deg); 
+}
+
+*, *:before, *:after{ 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+} 
+.css-shapes{ 
+    position: relative; 
+    left:999px;
+    height: 58px; 
+    width: 12px; 
+    background-color: black; 
+    top: -15px; 
+    -webkit-transform: rotate(132deg) skew(0deg); 
+    transform: rotate(145deg) skew(0deg); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IMPORTANT */
+/*
+	- I changed the upper case on the name of every class for a lower case.
+	- I also commented the 'left' attribute on every class because the letters needed
+		to be floated to the left (I also added this attribute).
+	- Both 'a' and 'b' letters (classes) should be renamed so they match the same naming
+		convention used for the other letters. i.e. '.my-u > i+i'. This will keep the program
+		cleaner and easier to manage/understand.
+	- I noticed the letter 'w' is divided into two different parts, I'd recomend
+		combining them into a single object for the same reason above.
+	
+	
+	- To add the missing letters to the javascript file you just need to paste the html code
+		for the letter inside the corresponding '<div class="typed-letter"></div>'.
+		i.e. '<div class="typed-letter"><i class="my-letter my-t"><i></i><i></i></i></div>'
+		
+		
+	- Have fun :D
+
+
+*/
+
+
+/* This is the container in which letters will appear. */
+
+.editable-div {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+	height: 7em;
+	top: 40%;
+	border-bottom: 1px solid rgba(0, 0, 0, .4);
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+
+
+/* Here are the main dimensions for the letters (so they can float
+	next to eachother). There are also some special cases like the letter
+	"i" which need less space */
+	
+.my-letter {
+	width: 3.5em;
+	height: 7.2em;
+}
+
+.my-letter.my-d {
+	width: 4em;
+}
+.my-letter.my-i {
+	width: 1.3em;
+}
+
+
+/* Some very basic styling */
+.type-title {
+	position: relative;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: rgba(0, 0, 0, .4);
+}
+
+body {
+	background-color: #e9df7f;
+}
+
+body, h1, h2, h3, a {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+
+
